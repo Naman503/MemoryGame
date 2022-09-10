@@ -80,7 +80,9 @@ $(".bi").click(function (event) {
     add(this);
     condition();
 })
-
+$("h1").click(function(event){
+    what("y");
+})
 $(document).keypress(function (event) {
     if(event.key=='y'||event.key=='Y'){
        what("y");
