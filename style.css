@@ -369,7 +369,7 @@ i{
 i:hover{
     box-shadow: 10px 10px 8px 8px #888888 inset;
     font-size: 8.9rem;
-    background-color: #1800a1;
+    /* background-color: #1800a1; */
 }
 h3{
   position:fixed;
