@@ -83,6 +83,9 @@ $(".bi").click(function (event) {
 $("h1").click(function(event){
     what("y");
 })
+$("h3").click(function(event){
+    what("n");
+})
 $(document).keypress(function (event) {
     if(event.key=='y'||event.key=='Y'){
        what("y");
